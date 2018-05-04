@@ -31,7 +31,14 @@
 * 解构
 * 扩展操作符
 * 模版字符串
-
+* 动态属性名
+	
+	```
+	result: {
+	  ...result,
+	  [searchKey]: { hits: updateHits, page }
+	}
+	```
 
 ## 运行项目
 
